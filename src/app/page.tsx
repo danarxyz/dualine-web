@@ -4,10 +4,16 @@ import Main from "./Main";
 import Service from "./Services/Service";
 import Testimonial from "./Testimonial/Testimonial";
 import ContactUs from "./ContactUs/ContactUs";
+import Head from "next/head"; 
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Dualine</title>
+        <link rel="icon" href="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" />
+      </Head>
+      
       <Navbar />
       
       {/* About Us Section */}
